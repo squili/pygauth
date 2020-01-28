@@ -82,7 +82,7 @@ def get_user_creds_dict(creds_dict: Dict[str, str], scopes: List[str] = None, cr
                     cached_creds = json.loads(cache[scope_code])
                     creds = Credentials.from_authorized_user_info(
                         cached_creds, cached_creds["scopes"])
-                    if creds.expired and creds.refresh_token:
+                    if (creds.expired and creds.refresh_token) or not creds.token:
                         creds.refresh(Request())
                     return creds
                 else:
