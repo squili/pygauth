@@ -1,5 +1,7 @@
 # PygAuth
 A Python helper library for Google Authentication
+# Installation
+Install from pypi! https://pypi.org/project/pygauth/
 # Usage
 ### Get Service Account Credentials
 ```
@@ -45,3 +47,4 @@ Please visit this URL to authorize this application: https://accounts.google.com
 >>> creds = pygauth.get_user_creds_file("credentials.json", scopes=["drive"]) # authenticate using file
 # doesn't ask for another login since this scope has already been authenticated
 ```
+
