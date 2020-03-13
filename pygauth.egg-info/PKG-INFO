@@ -1,12 +1,14 @@
 Metadata-Version: 2.1
 Name: pygauth
-Version: 0.1.1
+Version: 0.1.2
 Summary: A Python helper library for Google Authentication
 Home-page: https://github.com/Spazzlo/pygauth
 Author: Spazzlo
 License: UNKNOWN
 Description: # PygAuth
         A Python helper library for Google Authentication
+        # Installation
+        Install from pypi! https://pypi.org/project/pygauth/
         # Usage
         ### Get Service Account Credentials
         ```
@@ -52,6 +54,7 @@ Description: # PygAuth
         >>> creds = pygauth.get_user_creds_file("credentials.json", scopes=["drive"]) # authenticate using file
         # doesn't ask for another login since this scope has already been authenticated
         ```
+        
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3

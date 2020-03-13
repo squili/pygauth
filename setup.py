@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="pygauth",
     version="0.1.2",
-    install_requires=install_requires
+    install_requires=install_requires,
     author="Spazzlo",
     description="A Python helper library for Google Authentication",
     long_description=long_description,
