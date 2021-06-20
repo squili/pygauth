@@ -14,7 +14,7 @@ setuptools.setup(
     description='A Python helper library for Google Authentication',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://git.squi.live/squili/pygauth',
+    url='https://github/squili/pygauth',
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
